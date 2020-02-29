@@ -1,2 +1,2 @@
 # datago
-Singleton connection for any database (NoSQL and RDBMS)
+Golang singleton connection to any database (NoSQL and RDBMS)
