@@ -48,7 +48,6 @@ func (g *gorm) GetConnection() (*grm.DB, error) {
 	if err != nil {
 		return nil, err
 	}
-	defer g.db.Close()
 
 	return g.db, nil
 }
